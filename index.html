@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negozio di Smartphones</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <nav>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Prodotti</a>
+      <a href="#">Contatti</a>
+    </div>
+  </nav>
+
+  
+  <h1>Negozio di Smartphones</h1>
+
+  
+  <div class="buttons">
+    <button onclick="changeH1Content('Benvenuto nel nostro negozio!')">Cambia Titolo</button>
+    <button onclick="changeBackgroundColor('#f0f0f0')">Cambia Colore Sfondo</button>
+    <button onclick="changeFooterAddress('Smartphone Store, Via Virtuale 789, Torino')">Cambia Indirizzo Footer</button>
+    <button onclick="addClassToAmazonLinks('highlight-link')">Evidenzia Link Amazon</button>
+    <button onclick="toggleImageVisibility('hidden-image')">Nascondi/Mostra Immagini</button>
+    <button onclick="changePriceColor('red')">Cambia Colore Prezzi</button>
+  </div>
+
+  
+  <main>
+    <div class="product-container">
+      
+      <div class="card">
+        <img src="img/smartphone1.jpg" alt="Smartphone 1">
+        <h3>Smartphone XYZ</h3>
+        <p>Ottima fotocamera e display AMOLED</p>
+        <span>$499</span>
+        <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
+      </div>
+
+      
+      <div class="card">
+        <img src="img/smartphone2.jpg" alt="Smartphone 2">
+        <h3>Smartphone ABC</h3>
+        <p>Batteria lunga durata</p>
+        <span>$399</span>
+        <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
+      </div>
+
+      
+      <div class="card">
+        <img src="img/smartphone3.png" alt="Smartphone 3">
+        <h3>Smartphone PQR</h3>
+        <p>Performance elevata per giochi</p>
+        <span>$599</span>
+        <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
+      </div>
+
+      
+      <div class="card">
+        <img src="img/smartphone4.png" alt="Smartphone 4">
+        <h3>Smartphone DEF</h3>
+        <p>Display ultra-wide</p>
+        <span>$699</span>
+        <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
+      </div>
+
+      
+      <div class="card">
+        <img src="img/smartphone5.jpg" alt="Smartphone 5">
+        <h3>Smartphone GHI</h3>
+        <p>Fotocamera da 108MP</p>
+        <span>$799</span>
+        <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
+      </div>
+
+    </div>
+  </main>
+
+  
+  <footer>
+    <p>Smartphone Store, Via Elettronica 123, Milano</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
