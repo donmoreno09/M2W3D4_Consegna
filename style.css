@@ -12,7 +12,7 @@
   
   .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #333;
     padding: 15px;
   }
@@ -28,6 +28,31 @@
     color: #f4a261;
   }
   
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    padding: 8px 16px;
+    background-color: #5c9c8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #4a7c69;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
   main {
     display: flex;
     justify-content: center;
@@ -62,6 +87,10 @@
     object-fit: cover;
   } 
 
+  .hidden-image {
+    display: none;
+  }
+
   .card h3 {
     font-size: 20px;
     margin: 10px 0;
@@ -89,6 +118,11 @@
     margin-top: 10px;
   }
   
+  .highlight-link {
+    font-weight: bold;
+    color: #ff3300;
+  }
+
   .amazon-link:hover {
     background-color: #e76f51;
   }

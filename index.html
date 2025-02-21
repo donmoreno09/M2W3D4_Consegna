@@ -8,32 +8,28 @@
 </head>
 <body>
 
-  
   <nav>
     <div class="navbar">
-      <a href="#">Home</a>
-      <a href="#">Prodotti</a>
-      <a href="#">Contatti</a>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Prodotti</a>
+            <a href="#">Contatti</a>
+        </div>
+      <div class="buttons">
+        <button onclick="changeH1Content('Benvenuto nel nostro negozio!')">Cambia Titolo</button>
+        <button onclick="changeBackgroundColor('lightblue')">Cambia Colore Sfondo</button>
+        <button onclick="changeFooterAddress('Smartphone Store, Via Virtuale 789, Torino')">Cambia Indirizzo Footer</button>
+        <button onclick="addClassToAmazonLinks('highlight-link')">Evidenzia Link Amazon</button>
+        <button onclick="toggleImageVisibility('hidden-image')">Nascondi/Mostra Immagini</button>
+        <button onclick="changePriceColor('red')">Cambia Colore Prezzi</button>
+      </div>
     </div>
   </nav>
 
-  
   <h1>Negozio di Smartphones</h1>
 
-  
-  <div class="buttons">
-    <button onclick="changeH1Content('Benvenuto nel nostro negozio!')">Cambia Titolo</button>
-    <button onclick="changeBackgroundColor('#f0f0f0')">Cambia Colore Sfondo</button>
-    <button onclick="changeFooterAddress('Smartphone Store, Via Virtuale 789, Torino')">Cambia Indirizzo Footer</button>
-    <button onclick="addClassToAmazonLinks('highlight-link')">Evidenzia Link Amazon</button>
-    <button onclick="toggleImageVisibility('hidden-image')">Nascondi/Mostra Immagini</button>
-    <button onclick="changePriceColor('red')">Cambia Colore Prezzi</button>
-  </div>
-
-  
   <main>
     <div class="product-container">
-      
       <div class="card">
         <img src="img/smartphone1.jpg" alt="Smartphone 1">
         <h3>Smartphone XYZ</h3>
@@ -42,7 +38,6 @@
         <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
       </div>
 
-      
       <div class="card">
         <img src="img/smartphone2.jpg" alt="Smartphone 2">
         <h3>Smartphone ABC</h3>
@@ -51,7 +46,6 @@
         <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
       </div>
 
-      
       <div class="card">
         <img src="img/smartphone3.png" alt="Smartphone 3">
         <h3>Smartphone PQR</h3>
@@ -60,7 +54,6 @@
         <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
       </div>
 
-      
       <div class="card">
         <img src="img/smartphone4.png" alt="Smartphone 4">
         <h3>Smartphone DEF</h3>
@@ -69,7 +62,6 @@
         <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
       </div>
 
-      
       <div class="card">
         <img src="img/smartphone5.jpg" alt="Smartphone 5">
         <h3>Smartphone GHI</h3>
@@ -77,11 +69,9 @@
         <span>$799</span>
         <a href="https://www.amazon.it" target="_blank" class="amazon-link">Compra su Amazon</a>
       </div>
-
     </div>
   </main>
 
-  
   <footer>
     <p>Smartphone Store, Via Elettronica 123, Milano</p>
   </footer>
